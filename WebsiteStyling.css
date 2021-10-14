@@ -1,12 +1,15 @@
-body { background-image: url("SpaceBackground.jpg")}
+body { background-image: url("SpaceBackground.jpg")
+}
 h1 {
 	color: black;
+	text-decoration: underline;
 	padding: 25px 10px;
 	text-align: center;
 	background-image: white;
 	animation: rainbowtext 4s linear infinite
 
 }
+	
 @keyframes rainbowtext {
 	0% {color: red;}
 	14% {color: Orange;}
@@ -22,7 +25,19 @@ h1 {
 	color: green;
 	text-color: black;
 }
-ul {color: white;}
+ul {color: white;
+columns: 2;
+column-gap: 1em;
+text-align: center;
+border: 3px solid white;
+background-clip: content-box;
+}
+pbio {
+	color: white;
+	text-align: center;
+	max-width: 500px;
+}
+
 
 
 
@@ -37,8 +52,8 @@ ul {color: white;}
 
 p {
   color: white;
-  width: 500px;
+  width: 1000px;
   margin: auto;
-  border: 3px solid green;
+  border: 3px solid white;
   padding: 10px;
 }
