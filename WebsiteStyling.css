@@ -1,4 +1,4 @@
-
+body { background-image: url("SpaceBackground.jpg")}
 h1 {
 	color: black;
 	padding: 25px 10px;
@@ -22,7 +22,7 @@ h1 {
 	color: green;
 	text-color: black;
 }
-body { background-image: url("SpaceBackground.jpg")}
+ul {color: white;}
 
 
 
