@@ -19,6 +19,8 @@ h1 {
 }
 .btn-group{
 	text-align: center;
+	color: green;
+	text-color: black;
 }
 body { background: black; }
 
