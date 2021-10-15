@@ -43,11 +43,16 @@ pbio {
 }
 .sm-icon{ width: 25px; }
 
+.image{ max-width: 50%; }
 
 
 
-
-
+.HobbiePhotos{
+	display: flex;
+	width: 500px;
+	padding-left: 340px
+}
+	
 
 
 
@@ -62,4 +67,24 @@ p {
   border: 2px solid white;
   padding: 10px;
   background-color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 15%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+ 
 }
